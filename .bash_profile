@@ -32,3 +32,11 @@ $(tput sgr0)"
 
 #prompt colorido
 export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w \$\[\033[00m\]"
+
+# Some people don't like fortune. If you uncomment the following lines,
+# you will have a fortune each time you log in ;-)
+if [ -x /usr/bin/fortune ] ; then
+    echo
+    /usr/bin/fortune
+    echo
+fi
