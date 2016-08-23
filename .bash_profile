@@ -1,3 +1,4 @@
+#bash_profile para o raspbian
 #incluindo o .bashrc
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
