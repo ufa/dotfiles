@@ -4,6 +4,7 @@ if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
 
+# saudacao com dados de sistema. Versao original em https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=23440&sid=f2cf0589c5eb7dd28a44af407b94e2ee
 let upSeconds="$(/usr/bin/cut -d. -f1 /proc/uptime)"
 let secs=$((${upSeconds}%60))
 let mins=$((${upSeconds}/60%60))
