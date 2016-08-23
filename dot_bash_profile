@@ -1,4 +1,6 @@
 #bash_profile para o raspbian
+#curl necessario para o clima atual e fortune para a sorte
+
 #incluindo o .bashrc
 if [ -f ~/.bashrc ]; then
    source ~/.bashrc
